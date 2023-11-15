@@ -1,3 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: ZukaDoodle;
+  src: url(../../Fonts/ZukaDoodle.ttf);
+}
+
 body {
-  background-color: #b9da95;
+  background-image: url("../../Images/achtergrond.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.container_quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.quote {
+  font-family: ZukaDoodle;
+  font-weight: lighter;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.box {
+  background-color: #f9f9f9;
+  margin: 0 7vw 0 7vw;
+  border-radius: 6px;
+  font-family: "Nunito", sans-serif;
+  padding: 5vw;
+}
+.ervaarjijstress {
+  font-size: 1.37rem;
+  text-align: left;
+  font-weight: 600;
+}
+.calltoaction {
+  font-size: 0.8rem;
+  margin-top: 4vw;
+  text-align: left;
+  font-weight: 400;
+}
+.imageButton {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #afa4ca;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 8vw;
+  font-family: "Nunito", sans-serif;
+}
+
+.imageButton img {
+  max-height: 30px; /* Adjust the max height as needed */
+  margin-right: 10px; /* Adjust the margin between image and text */
+}
+
+.imageButton span {
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
 }
