@@ -67,3 +67,24 @@ body {
   font-size: 0.9rem;
   font-weight: 600;
 }
+
+.onsdoel {
+  margin: 0 7vw 0 7vw;
+}
+
+.doel {
+  margin: 0 7vw 0 7vw;
+  border-radius: 6px;
+  font-family: "Nunito", sans-serif;
+  padding: 5vw;
+}
+.doel h2 {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 2vw;
+}
+
+.doel p {
+  font-size: 0.8rem;
+  margin-bottom: 2vw;
+}
