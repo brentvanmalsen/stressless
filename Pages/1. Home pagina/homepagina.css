@@ -1,7 +1,9 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@400;800&family=Vollkorn+SC&display=swap");
 
 @font-face {
   font-family: ZukaDoodle;
@@ -70,6 +72,9 @@ body {
 
 .onsdoel {
   margin: 0 7vw 0 7vw;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
 }
 
 .doel {
@@ -82,9 +87,31 @@ body {
   font-size: 0.8rem;
   font-weight: bold;
   margin-bottom: 2vw;
+  font-family: "Nunito", sans-serif;
 }
 
 .doel p {
   font-size: 0.8rem;
   margin-bottom: 2vw;
+  font-weight: lighter;
+  font-family: "Nunito", sans-serif;
+}
+
+.box_spel {
+  background-color: #f9f9f9;
+  margin: 0 7vw 0 7vw;
+  border-radius: 6px;
+  padding: 5vw;
+}
+.box_spel h2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+
+.box_spel p {
+  font-family: "Nunito", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 100;
+  color: #0b0b0b;
 }
