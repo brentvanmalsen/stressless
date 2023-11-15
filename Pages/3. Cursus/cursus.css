@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@400;800&family=Vollkorn+SC&display=swap');
+@font-face {
+    font-family: ZukaDoodle;
+    src: url(../../Fonts/ZukaDoodle.ttf);
+}
+
+body {
+    background-image: url("./Images/Background.png"); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: repeat; 
+}
+
+h1 {
+    font-family: ZukaDoodle;
+    font-weight: lighter;
+    font-size: 3.125rem;
+    margin: 7vw 3vw 0 7vw;
+}
+
+.box {
+    background-color: #F9F9F9;
+    margin: 0 7vw 0 7vw;
+    border-radius: 6px;
+    padding: 5vw;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: .875rem;
+    font-weight: bold;
+}
+
+#introbox {
+    background-image: url(./Images/Vormen.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.brainimg {
+    width: 100%;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.brainimg img{
+    width: 40%;
+    transform: scaleX(-1);
+}
+
+
+
+
+
+h2 {
+
+}
