@@ -12,7 +12,7 @@
 
 body {
   background-image: url("../../Images/achtergrond.png");
-  background-size: cover;
+
   background-position: center;
   background-repeat: repeat;
 }
@@ -107,6 +107,7 @@ body {
   font-family: "Red Hat Display", sans-serif;
   font-size: 1.25rem;
   font-weight: 100;
+  margin-bottom: 5vw;
 }
 
 .box_spel p {
@@ -114,4 +115,9 @@ body {
   font-size: 0.8rem;
   font-weight: 100;
   color: #0b0b0b;
+  margin-bottom: 5vw;
+}
+
+.box_spel img {
+  height: 60vw;
 }
