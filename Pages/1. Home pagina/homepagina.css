@@ -182,3 +182,9 @@ body {
   color: #0b0b0b;
   margin-bottom: 7vw;
 }
+.box_hulp .nieuws {
+  margin: 40px 0px 40px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
