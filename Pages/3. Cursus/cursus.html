@@ -27,11 +27,78 @@
 
     <span id="break"></span>
 
-    <div class="box">
+    <div class="box" id="versionsbox">
         <h2>Versies</h2>
+        <p>
+            <br> U kunt verschillende versies van de cursus aanvragen. Deze zijn hieronder uitgelegd. 
+            Of neem <a href="./cursus.html"> contact </a> op. 
+        </p>
+
+        <div class="versions">
+            <h3> Uno Dos Stress <span id="details">(versie 1)</span> </h3>
+            <p>
+                Uno Dos Stress is het kaartspel om stress binnen een klas bespreekbaar te maken. Voor meer informatie kunt u de <a href="./cursus.html"> spelpagina</a> bezoeken. Dit is 
+                alleen het spel.
+            </p>
+            <img id="cards" src="./Images/cards.png">
+        </div>
+
+        <div class="versions">
+            <h3> StressLess Cursus <span id="details"> (met bezoek) (versie 2)</span> </h3>
+            <p>
+                Naast het spel is er ook een volledige cursus. Dit is een mooie presentatie met script om zelf de cursus te geven. U kunt er ook voor kiezen om ons te laten komen. Dan verzorgen wij alles. Neem gerust <a href="./cursus.html"> contact </a> op!
+            </p>
+            <img src="./Images/powerpoint 1.png">
+        </div>
+
+        <div class="versions">
+            <h3> StressLess Cursus <span id="details"> (zonder bezoek) (versie 3)</span> </h3>
+            <p>
+                Naast het spel is er ook een volledige cursus. Dit is een mooie presentatie met script om zelf de cursus te geven. U kunt er ook voor kiezen om ons te laten komen. Dan verzorgen wij alles. Neem gerust <a href="./cursus.html"> contact </a> op!
+            </p>
+            <img src="./Images/powerpoint 2.png">
+        </div>
     </div>
 
     <span id="break"></span>
+
+    <div class="box" id="contactbox">
+        <div> 
+            <h2>Versies</h2>
+            <p> <br> Wilt u de cursus zelf geven of ons inhuren, neem dan contact met ons op!! <br> <br> </p>
+        </div>
+
+        <form action="#" method="post">
+            <label for="name">*Naam:</label>
+            <input type="text" id="name" name="name" placeholder="Naam Namen" required>
+    
+            <label for="mail">*Email:</label>
+            <input type="email" id="mail" name="mail" placeholder="voorbeeld@voorbeeld.nl" required>
+    
+            <label for="phone">Telefoonnummer:</label>
+            <input type="tel" id="phone" name="phone" placeholder="+31 6 12345678">
+    
+            <label for="school">*School:</label>
+            <input type="text" id="school" name="school" placeholder="School Lyceum" required>
+    
+            <label for="location">*Locatie:</label>
+            <input type="text" id="location" name="location" placeholder="Stadsnaam" required>
+    
+            <label for="version">*Versie:</label>
+            <select id="version" name="version" required>
+                <option value="" disabled selected>Kies versie</option>
+                <option value="v1">Versie 1</option>
+                <option value="v2">Versie 2</option>
+                <option value="v3">Versie 3</option>
+            </select>
+    
+            <label for="extra-info">Bericht:</label>
+            <textarea id="extra-info" name="extra-info" placeholder="Type hier (e.g. vragen en/of opmerkingen)" rows="4"></textarea>
+    
+            <button type="submit">Verstuur</button>
+        </form>    
+    </div>    
+
     <span id="break"></span>
     <span id="break"></span>
     <span id="break"></span>
