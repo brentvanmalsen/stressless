@@ -105,9 +105,9 @@ body {
 }
 .box_spel h2 {
   font-family: "Red Hat Display", sans-serif;
-  font-size: 1.25rem;
-  font-weight: 100;
-  margin-bottom: 5vw;
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 7vw;
 }
 
 .box_spel p {
@@ -115,9 +115,70 @@ body {
   font-size: 0.8rem;
   font-weight: 100;
   color: #0b0b0b;
-  margin-bottom: 5vw;
+  margin-bottom: 7vw;
 }
 
 .box_spel img {
   height: 60vw;
+  margin: 40px 0px 40px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: #9fbede;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin: 12px 0px 12px 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.material-symbols-outlined {
+  margin-left: -5px; /* Adjust this value as needed to move the icon more to the left */
+}
+.box_hulp {
+  background-color: #f9f9f9;
+  margin: 0 7vw 0 7vw;
+  border-radius: 6px;
+  padding: 5vw;
+}
+.box_hulp h2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 7vw;
+}
+
+.box_hulp li p {
+}
+.content {
+  display: flex;
+  margin-bottom: 5vw;
+}
+
+.image-container {
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.text-container {
+  flex-grow: 1;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.8rem;
+}
+
+.box_hulp p {
+  font-family: "Nunito", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 100;
+  color: #0b0b0b;
+  margin-bottom: 7vw;
 }
