@@ -12,9 +12,12 @@
 
 body {
   background-image: url("../../Images/achtergrond.png");
-
   background-position: center;
   background-repeat: repeat;
+}
+
+.quote span {
+  color: green;
 }
 
 .container_quote {
@@ -187,4 +190,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.box_hulp .datum {
+  color: gray;
 }
