@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@400;800&family=Vollkorn+SC&display=swap");
+@font-face {
+  font-family: ZukaDoodle;
+  src: url(../../Fonts/ZukaDoodle.ttf);
+}
+
+body {
+  background-image: url("./Images/Background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+h1 {
+  font-family: ZukaDoodle;
+  font-weight: lighter;
+  font-size: 3.125rem;
+  margin: 7vw 0 0 7vw;
+  text-align: center;
+}
+
+.box {
+  background-color: #f9f9f9;
+  margin: 0 7vw 0 7vw;
+  border-radius: 6px;
+  padding: 5vw;
+}
+
+.name_hulp {
+  margin: 0 7vw 0 7vw;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name_hulp h2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.125rem;
+  margin-bottom: 1vh;
+  margin-top: 4vh;
+  line-height: 0.95;
+}
+.name_hulp button {
+  background-color: white;
+  border: none;
+  margin: 0vw 3vw 0vw 3vw;
+  border-color: black;
+  position: relative;
+  width: 40px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+  border-radius: 50%;
+  border-style: solid;
+  border-color: black;
+}
+
+.name_hulp button i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}

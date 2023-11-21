@@ -3,7 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>StressLess - Hulpmiddelen</title>
+    <link rel="stylesheet" href="../../Basic_Styling/basic.css" />
+    <link rel="stylesheet" href="./hulpmiddelen.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <h1>Hulpmiddelen</h1>
+
+    <div class="name_hulp">
+      <h2>Social media posts</h2>
+      <button class="prev" onclick="changeSlide(-1)">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="next" onclick="changeSlide(1)">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <div class="box" id="introbox">
+      <div class="slideshow-container">
+        <img src="./images/instapost.png" alt="" srcset="" id="slideImage" />
+      </div>
+    </div>
+
+    <script>
+      let currentSlide = 0;
+      const slides = ["./images/instapost.png", "./images/test.png"];
+      const slideImage = document.getElementById("slideImage");
+
+      function showSlide() {
+        slideImage.src = slides[currentSlide];
+      }
+
+      function changeSlide(n) {
+        currentSlide = (currentSlide + n + slides.length) % slides.length;
+        showSlide();
+      }
+
+      showSlide();
+    </script>
+  </body>
 </html>
