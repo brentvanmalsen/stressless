@@ -1,4 +1,3 @@
-
 # StressLess Campagne Website
 
 Voor ons project in samenwerking met Partout hebben we een campagne bedacht voor de Kindertelefoon. Deze Git is de locatie waarin we de website hebben gemaakt en opgeslagen.
@@ -37,6 +36,6 @@ Zodra u dit bestand opent kunt u onze website bekijken.
 
 
 
-![Logo](./Elementen/header/Image/logo.png){width="50%"}
+![Logo](./Elementen/header/Image/logo.png){width="20%"}
 
 
