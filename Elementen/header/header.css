@@ -154,6 +154,7 @@ li a {
         align-items: center;
         background-image: url("Image/achtergrond5.png" );
         background-color: hsl(0, 0%, 100%);
+        z-index: 1000;
     }
 
     #menu-toggle~.menu li {

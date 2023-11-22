@@ -10,9 +10,44 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
+    <script src="./hulpmiddelen.js" defer></script>
     <link rel="stylesheet" href="../../Basic_Styling/basic.css" />
+    <link rel="stylesheet" href="../../Elementen/header/header.css">
+    <link rel="stylesheet" href="../../Elementen/footer/footer.css">
   </head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <section class="top-nav">
+    <div>
+      <img id="logo_kindertelefoon" src="../../Elementen/header/Image/logo.png"></img>
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <li>
+          <div class="lijn een"></div>
+          <a href="../1. Home pagina/index.html"> Home </a>
+      </li>
+      <li>
+          <div class="lijn twee"></div>
+          <a href="../2. Spel/Spel.html"> Spel </a>
+      </li>
+      <li>
+          <div class="lijn drie"></div>
+          <a href="../3. Cursus/cursus.html"> Cursus </a>
+      </li>
+      <li>
+          <div class="lijn vier"></div>
+          <a href="../4. Hulpmiddelen/"> Hulpmiddelen </a>
+
+      </li>
+    </ul>
+  </section>
+
   <body>
+    
     <h1>Hulpmiddelen</h1>
     <div id="break"></div>
     <div class="name_hulp">
@@ -69,34 +104,32 @@
       </div>
     </div>
 
-    <script>
-      let currentSlides = {
-        verhalen: 0,
-        nieuws: 0,
-        social: 0,
-      };
-
-      const slides = {
-        verhalen: ["./images/verhaal3.png", "./images/verhaal1.png"],
-        nieuws: ["./images/nieuwspng1.png", "./images/nieuwspng.png"],
-        social: ["./images/instapost.png", "./images/verhaal2.png"],
-      };
-
-      function showSlide(section) {
-        document.getElementById(`${section}Image`).src =
-          slides[section][currentSlides[section]];
-      }
-
-      function changeSlide(n, section) {
-        currentSlides[section] =
-          (currentSlides[section] + n + slides[section].length) %
-          slides[section].length;
-        showSlide(section);
-      }
-
-      showSlide("verhalen"); // Initial display for the first section
-      showSlide("nieuws"); // Initial display for the second section
-      showSlide("social"); // Initial display for the third section
-    </script>
+    <span id="break"></span>
   </body>
+
+  <footer>
+    <div class="doodles">
+        <span class="placeholderimg"> <img src="../../Elementen/footer/images/yellow.png"> </span>
+        <span class="placeholderimg"> <img src="../../Elementen/footer/images/blue.png"> </span>
+        <span class="placeholderimg"> <img src="../../Elementen/footer/images/orange.png"> </span>
+    </div>
+    <div class="bottomfooter">
+        <div class="items" id="socials">
+            <span class="placeholder-socials"> <img src="../../Elementen/footer/images/tiktok.png"> </span>
+            <span class="placeholder-socials"> <img src="../../Elementen/footer/images/youtube.png"> </span>
+            <span class="placeholder-socials"> <img src="../../Elementen/footer/images/insta.png"> </span>
+        </div>
+
+        <div class="items" id="links">
+            <a> Home </a>
+            <a> Spel </a>
+            <a> Cursus </a>
+            <a> Hulpmiddelen </a>
+        </div>
+
+        <div class="copyright"> 
+            <p> © 2023 Stressless </p>
+        </div>
+    </div>
+</footer>
 </html>

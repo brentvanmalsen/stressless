@@ -3,15 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Stressless - Home</title>
     <link rel="stylesheet" href="homepagina.css" />
     <link rel="stylesheet" href="/Basic_Styling/basic.css" />
+    <link rel="stylesheet" href="../../Elementen/header/header.css">
+    <link rel="stylesheet" href="../../Elementen/footer/footer.css">
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
   </head>
   <body>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <section class="top-nav">
+      <div>
+        <img id="logo_kindertelefoon" src="../../Elementen/header/Image/logo.png"></img>
+      </div>
+      <input id="menu-toggle" type="checkbox" />
+      <label class='menu-button-container' for="menu-toggle">
+      <div class='menu-button'></div>
+    </label>
+      <ul class="menu">
+        <li>
+            <div class="lijn een"></div>
+            <a href="../1. Home pagina/index.html"> Home </a>
+        </li>
+        <li>
+            <div class="lijn twee"></div>
+            <a href="../2. Spel/Spel.html"> Spel </a>
+        </li>
+        <li>
+            <div class="lijn drie"></div>
+            <a href="../3. Cursus/cursus.html"> Cursus </a>
+        </li>
+        <li>
+            <div class="lijn vier"></div>
+            <a href="../4. Hulpmiddelen/hulpmiddelen.html"> Hulpmiddelen </a>
+
+        </li>
+      </ul>
+    </section>
+
+    <span id="break"></span>
+
     <div class="container_quote">
       <div class="quote">
         "Laat stress <span>n</span><span>i</span><span>e</span><span>t</span> de
@@ -148,5 +183,35 @@
         <span class="material-symbols-outlined"> book </span> Lees Meer
       </button>
     </div>
+
+    <span id="break"></span>
+
   </body>
-</html>
+
+  <footer>
+    <div class="doodles">
+        <span class="placeholderimg"> <img src="../../Elementen/footer/images/yellow.png"> </span>
+        <span class="placeholderimg"> <img src="../../Elementen/footer/images/blue.png"> </span>
+        <span class="placeholderimg"> <img src="../../Elementen/footer/images/orange.png"> </span>
+    </div>
+    <div class="bottomfooter">
+        <div class="items" id="socials">
+            <span class="placeholder-socials"> <img src="../../Elementen/footer/images/tiktok.png"> </span>
+            <span class="placeholder-socials"> <img src="../../Elementen/footer/images/youtube.png"> </span>
+            <span class="placeholder-socials"> <img src="../../Elementen/footer/images/insta.png"> </span>
+        </div>
+
+        <div class="items" id="links">
+            <a> Home </a>
+            <a> Spel </a>
+            <a> Cursus </a>
+            <a> Hulpmiddelen </a>
+        </div>
+
+        <div class="copyright"> 
+            <p> © 2023 Stressless </p>
+        </div>
+    </div>
+</footer>
+
+  </html>
