@@ -10,43 +10,93 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
+    <link rel="stylesheet" href="../../Basic_Styling/basic.css" />
   </head>
   <body>
     <h1>Hulpmiddelen</h1>
-
+    <div id="break"></div>
     <div class="name_hulp">
       <h2>Social media posts</h2>
       <div class="buttons">
-        <button class="prev" onclick="changeSlide(-1)">
+        <button class="prev" onclick="changeSlide(-1, 'social')">
           <i class="fas fa-chevron-left"></i>
         </button>
-        <button class="next" onclick="changeSlide(1)">
+        <button class="next" onclick="changeSlide(1, 'social')">
           <i class="fas fa-chevron-right"></i>
         </button>
       </div>
     </div>
 
-    <div class="box" id="introbox">
+    <div class="box" id="social">
       <div class="slideshow_container">
-        <img src="./images/instapost.png" alt="" srcset="" id="slideImage" />
+        <img src="./images/instapost.png" alt="" srcset="" id="socialImage" />
+      </div>
+    </div>
+    <div id="break"></div>
+    <div class="name_hulp">
+      <h2>Verhalen</h2>
+      <div class="buttons">
+        <button class="prev" onclick="changeSlide(-1, 'verhalen')">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="next" onclick="changeSlide(1, 'verhalen')">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="box" id="verhalen">
+      <div class="slideshow_container">
+        <img src="./images/verhaal1.png" alt="" srcset="" id="verhalenImage" />
+      </div>
+    </div>
+    <div id="break"></div>
+    <div class="name_hulp">
+      <h2>Nieuws</h2>
+      <div class="buttons">
+        <button class="prev" onclick="changeSlide(-1, 'nieuws')">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="next" onclick="changeSlide(1, 'nieuws')">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="box" id="nieuws">
+      <div class="slideshow_container">
+        <img src="./images/nieuwspng.png" alt="" srcset="" id="nieuwsImage" />
       </div>
     </div>
 
     <script>
-      let currentSlide = 0;
-      const slides = ["./images/instapost.png", "./images/test.png"];
-      const slideImage = document.getElementById("slideImage");
+      let currentSlides = {
+        verhalen: 0,
+        nieuws: 0,
+        social: 0,
+      };
 
-      function showSlide() {
-        slideImage.src = slides[currentSlide];
+      const slides = {
+        verhalen: ["./images/verhaal3.png", "./images/verhaal1.png"],
+        nieuws: ["./images/nieuwspng1.png", "./images/nieuwspng.png"],
+        social: ["./images/instapost.png", "./images/verhaal2.png"],
+      };
+
+      function showSlide(section) {
+        document.getElementById(`${section}Image`).src =
+          slides[section][currentSlides[section]];
       }
 
-      function changeSlide(n) {
-        currentSlide = (currentSlide + n + slides.length) % slides.length;
-        showSlide();
+      function changeSlide(n, section) {
+        currentSlides[section] =
+          (currentSlides[section] + n + slides[section].length) %
+          slides[section].length;
+        showSlide(section);
       }
 
-      showSlide();
+      showSlide("verhalen"); // Initial display for the first section
+      showSlide("nieuws"); // Initial display for the second section
+      showSlide("social"); // Initial display for the third section
     </script>
   </body>
 </html>
