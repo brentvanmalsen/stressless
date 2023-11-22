@@ -36,6 +36,7 @@ Zodra u dit bestand opent kunt u onze website bekijken.
 - Contact forum 
 
 
-<img src="./Elementen/header/Image/logo.png" alt="Logo" style="width:50%;">
+
+![Logo](./Elementen/header/Image/logo.png){width: "50%"}
 
 
