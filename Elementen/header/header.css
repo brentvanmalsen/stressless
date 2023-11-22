@@ -153,6 +153,7 @@ li a {
         justify-content: center;
         align-items: center;
         background-image: url("Image/achtergrond5.png" );
+        background-color: hsl(0, 0%, 100%);
     }
 
     #menu-toggle~.menu li {
