@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@400;800&family=Vollkorn+SC&display=swap");
+@font-face {
+  font-family: ZukaDoodle;
+  src: url(../../Fonts/ZukaDoodle.ttf);
+}
+
+body {
+  background-image: url("./images/achtergrond.png");
+
+  background-position: center;
+  background-repeat: repeat;
+}
+
+h1 {
+  font-family: ZukaDoodle;
+  font-weight: lighter;
+  font-size: 3.125rem;
+  margin: 7vw 0 0 7vw;
+  text-align: left;
+}
+
+.box {
+  background-color: #f9f9f9;
+  margin: 0 7vw 0 7vw;
+  border-radius: 6px;
+  padding: 5vw;
+}
+
+.name_hulp {
+  margin: 4vw 7vw 1vh 7vw;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name_hulp h2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.125rem;
+  text-align: left;
+  line-height: 0.95;
+}
+.name_hulp button {
+  background-color: white;
+  border: none;
+  margin: 0vw 3vw 0vw 3vw;
+  border-color: black;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: black;
+}
+
+.name_hulp button i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+.buttons {
+  margin-left: 1vw;
+}
+.slideshow_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.slideshow_container img {
+}

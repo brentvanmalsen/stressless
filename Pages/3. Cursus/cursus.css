@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@400;800&family=Vollkorn+SC&display=swap');
+@font-face {
+    font-family: ZukaDoodle;
+    src: url(../../Fonts/ZukaDoodle.ttf);
+}
+
+body {
+    background-image: url("./Images/Background.png"); 
+    background-position: center;
+    background-repeat: repeat; 
+}
+
+h1 {
+    font-family: ZukaDoodle;
+    font-weight: lighter;
+    font-size: 3.125rem;
+    margin: 7vw 0 0 7vw;
+}
+
+.box {
+    background-color: #F9F9F9;
+    margin: 0 7vw 0 7vw;
+    border-radius: 6px;
+    padding: 5vw;
+}
+
+#introbox p {
+    font-family: 'Nunito', sans-serif;
+    font-size: .875rem;
+    font-weight: bold;
+}
+
+#introbox {
+    background-image: url(./Images/Vormen.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.brainimg {
+    width: 100%;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.brainimg img{
+    width: 40%;
+    transform: scaleX(-1);
+}
+
+
+
+
+
+h2 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.125rem;
+    margin-bottom: 2vh;
+    margin-top: 4vh;
+    line-height: 0.95;
+}
+
+.versions #cards {
+    width: 50%;
+    margin: 20px;
+}
+.versions img {
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+#versionsbox p{
+    font-family: 'Nunito', sans-serif;
+    font-size: .875rem;
+}
+
+#details {
+    font-size: .8125rem;
+    font-weight: lighter;
+    white-space: pre;
+}
+
+
+
+
+#contactbox p {
+    font-family: 'Nunito', sans-serif;
+    font-size: .875rem;
+}
+
+form {
+    border-radius: 6px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-size: .875rem;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s; /* Added transition for a smooth effect */
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border: 1px solid #AFA4CA;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #AFA4CA;
+    font-family: 'Nunito', sans-serif;
+    font-size: .875rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
