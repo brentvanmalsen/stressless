@@ -37,5 +37,5 @@ Zodra u dit bestand opent kunt u onze website bekijken.
 
 
 
-![Logo](./Elementen/header/Image/logo.png)
+![Logo](./Elementen/header/Image/logo.png){width: 50%}
 
