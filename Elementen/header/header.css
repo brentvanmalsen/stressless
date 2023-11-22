@@ -1,0 +1,185 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+nav {
+    width: 320px;
+    height: 62px;
+
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+li a {
+    text-decoration: none;  
+    color:black;
+}
+
+
+
+
+#logo_kindertelefoon {
+    width: 59px;
+    height: 41px;
+    margin: 10%;
+}
+
+.lijn {
+    margin-right: 2.5%;
+    margin-left: 5%;
+    width: 6px;
+    height: 33px;
+    flex-shrink: 0;
+    border-radius: 6px;
+}
+
+.een {
+    background: #ED7165;
+}
+
+.twee {
+    background: #EDA569;
+}
+
+.drie {
+    background: #B9DA95;;
+}
+
+.vier {
+    background: #D1E1FC;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.top-nav {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 62px;
+    padding: 1em;
+}
+
+.menu {
+    display: flex;
+    /*flex-direction: row; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.menu>li {
+    overflow: hidden;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+ 
+}
+
+.menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: block;
+    background-color: black;
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+}
+
+.menu-button::before {
+    content: "";
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: "";
+    margin-top: 8px;
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+}
+
+@media (max-width: 700px) {
+    .menu-button-container {
+        display: flex;
+        
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        margin-top: 62px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-image: url("Image/achtergrond5.png" );
+    }
+
+    #menu-toggle~.menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    #menu-toggle:checked~.menu li {
+        height: 2.5em;
+        padding: 0.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .menu>li {
+        display: flex;
+        padding: 0.5em 0;
+        width: 100%;
+        color: black;
+    }
+
+   
+}
+
+
+.test {
+    background-color: green;
+}
