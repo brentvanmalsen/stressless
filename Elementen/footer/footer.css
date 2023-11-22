@@ -1,0 +1,49 @@
+
+
+.doodles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 7vw 0 7vw ;
+}
+
+.placeholderimg {
+    margin-bottom: -20px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Nunito', sans-serif;
+    font-size: .875rem;
+}
+
+#socials {
+    padding: 3vh 14vw 3vh 14vw ;
+}
+#links {
+    padding: 0vh 7vw 0vh 7vw ;
+}
+
+.bottomfooter {
+    background-color: #F9F9F9;
+    width: 100%;
+}
+
+.copyright {
+    color: gray;
+    font-family: 'Nunito', sans-serif;
+    font-size: .875rem;
+    display: flex;
+    justify-content: center;
+    padding: 3vh 0 1vh 0;
+}
+
+
+#line {
+    position: absolute;
+    z-index: -10; 
+    margin-top: -40px;
+    margin-left: 40px;
+}
