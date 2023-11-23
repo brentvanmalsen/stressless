@@ -1,6 +1,6 @@
 # StressLess Campagne Website
 
-Voor ons project in samenwerking met Partout hebben we een campagne bedacht voor de Kindertelefoon. Deze Git is de locatie waarin we de website hebben gemaakt en opgeslagen.
+Voor ons project in samenwerking met Partout hebben we een campagne bedacht voor de Kindertelefoon. Deze Git is de locatie waarin we de campagnewebsite hebben gemaakt en opgeslagen.
 
 
 
@@ -13,10 +13,7 @@ Voor ons project in samenwerking met Partout hebben we een campagne bedacht voor
 
 
 
-
-
-
-## Installisatie
+## Installatie
 
 Installeer ons project door de Git te clonen en vervolgens te navigeren op de volgende manier:
 
@@ -24,7 +21,8 @@ Installeer ons project door de Git te clonen en vervolgens te navigeren op de vo
     -> Pages -> 1. Home -> index.html
 ```
 
-Zodra u dit bestand opent kunt u onze website bekijken.
+- Zodra u dit bestand opent kunt u onze website bekijken.
+- De website is mobile-first gemaakt, 375x667 iPhone SE
 
 
 
@@ -32,7 +30,8 @@ Zodra u dit bestand opent kunt u onze website bekijken.
 
 - Mobile
 - Geanimeerde header
-- Contact forum 
+- Contact forum
+- Speluitleg knop
 
 
 
