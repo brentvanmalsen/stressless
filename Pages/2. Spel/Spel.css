@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: ZukaDoodle;
+    src: url(../../Fonts/ZukaDoodle.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@400;800&family=Vollkorn+SC&display=swap');
+
+body {
+    background-image: url("./images/achtergrond.png");
+    background-position: center;
+    background-repeat: repeat;
+}
+
+h1 {
+    font-family: ZukaDoodle;
+    font-weight: lighter;
+    font-size: 3.125em;
+    margin: 11vw 0 11vw 0;
+    text-align: center;
+}
+
+.box {
+    background-color: #F9F9F9;
+    margin: 11vw 7vw 0 7vw;
+    border-radius: 6px;
+    padding: 5vw;
+}
+
+.box h2 {
+    font-family: 'Red Hat Display', sans-serif;
+    margin-bottom: 5vw;
+}
+
+.box p {
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+}
+
+.box li {
+    font-family: "Nunito", sans-serif;
+    font-weight: lighter;
+    margin-left: 9vw;
+    line-height: 140%;
+}
+
+.box ul {
+    margin: 7vw 0 7vw 0;
+}
+
+.speluitleg {
+    background-image: url('images/orange_splash_test.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: fill;
+    height: 852px;
+}
+
+.box2 {
+    margin: 8vw 7vw 0 7vw;
+    border-radius: 6px;
+    padding: 5vw;
+}
+
+.hoe_werkt_het {
+    font-size: 1.5em;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 17vw 0 5vw 0;
+    color: white;
+}
+
+.speluitleg p {
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+.uitlegvideo-image {
+    margin-top: 10vw;
+    max-width: 100%;
+    height: auto;
+}
+
+.liever_lezen {
+    font-size: 1.5em;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 5vw 0 5vw 0;
+    color: white;
+}
+
+.button-52 {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    margin-top: 9vw;
+}
+
+.button-52:after {
+    content: "";
+    width: 100%;
+    border: 1px solid black;
+    position: absolute;
+    height: 100%;
+    top: -5px;
+    left: -5px;
+    transition: 0.2s;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.box3 {
+    background-color: #F9F9F9;
+    margin: 11vw 7vw 0 7vw;
+    border-radius: 6px;
+    padding: 5vw;
+    margin-bottom: 10vw;
+    position: relative;
+}
+
+.box3 h2 {
+    font-family: 'Red Hat Display', sans-serif;
+    margin-bottom: 5vw;
+}
+
+.box3 p {
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+}
+
+.inhoudsafbeelding1,
+.inhoudsafbeelding2,
+.inhoudsafbeelding3 {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.inhoudsafbeelding1 {
+    margin-top: 7vw;
+}
+
+.inhoudsafbeelding2 {
+    margin-top: 7vw;
+}
+
+.prijs {
+    font-size: 1.5em;
+    margin-bottom: 0.83em;
+    font-weight: bold;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #333;
+    margin-top: 7vw;
+}
+
+.prijs_uitleg {
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+}
+
+.inhoudsafbeelding3 {
+    margin-top: 11vw;
+    box-shadow: 6px 2px 16px 0px rgba(136, 165, 191, 0.48), -6px -2px 16px 0px rgba(255, 255, 255, 0.8);
+    border-radius: 19px;
+    /* Pas de gewenste straal aan voor ronde randen */
+    margin-bottom: 10v;
+}
+
+.doodles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 7vw 0 7vw;
+}
+
+.placeholderimg {
+    margin-bottom: -20px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Nunito', sans-serif;
+    font-size: .875rem;
+}
+
+#socials {
+    padding: 3vh 14vw 3vh 14vw;
+}
+
+#links {
+    padding: 0vh 7vw 0vh 7vw;
+}
+
+.bottomfooter {
+    background-color: #F9F9F9;
+    width: 100%;
+}
+
+.copyright {
+    color: gray;
+    font-family: 'Nunito', sans-serif;
+    font-size: .875rem;
+    display: flex;
+    justify-content: center;
+    padding: 3vh 0 1vh 0;
+}
+
+
+#line {
+    position: absolute;
+    z-index: -10;
+    margin-top: -40px;
+    margin-left: 40px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+nav {
+    width: 320px;
+    height: 62px;
+
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+#logo_kindertelefoon {
+    width: 59px;
+    height: 41px;
+    margin: 10%;
+}
+
+.lijn {
+    margin-right: 2.5%;
+    margin-left: 5%;
+    width: 6px;
+    height: 33px;
+    flex-shrink: 0;
+    border-radius: 6px;
+}
+
+.een {
+    background: #ED7165;
+}
+
+.twee {
+    background: #EDA569;
+}
+
+.drie {
+    background: #B9DA95;
+    ;
+}
+
+.vier {
+    background: #D1E1FC;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+.top-nav {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 62px;
+    padding: 1em;
+}
+
+.menu {
+    display: flex;
+    /*flex-direction: row; */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu>li {
+    overflow: hidden;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+
+}
+
+.menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+    display: block;
+    background-color: black;
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+}
+
+.menu-button::before {
+    content: "";
+    margin-top: -8px;
+}
+
+.menu-button::after {
+    content: "";
+    margin-top: 8px;
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button {
+    background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked+.menu-button-container .menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+}
+
+@media (max-width: 700px) {
+    .menu-button-container {
+        display: flex;
+
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        margin-top: 62px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-image: url("Image/achtergrond5.png");
+        background-color: hsl(0, 0%, 100%);
+        z-index: 1000;
+    }
+
+    #menu-toggle~.menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    #menu-toggle:checked~.menu li {
+        height: 2.5em;
+        padding: 0.5em;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .menu>li {
+        display: flex;
+        padding: 0.5em 0;
+        width: 100%;
+        color: black;
+    }
+
+
+}
