@@ -12,7 +12,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@400;800&family=Vollkorn+SC&display=swap');
 
 body {
-    background-image: url("./images/achtergrond.png");
+    background-image: url("../../Images/achtergrond.png");
     background-position: center;
     background-repeat: repeat;
 }
@@ -54,7 +54,7 @@ h1 {
 }
 
 .speluitleg {
-    background-image: url('images/orange_splash_test.png');
+    background-image: url('../../Images/orange_splash_test.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -381,7 +381,7 @@ li a {
         width: 100%;
         justify-content: center;
         align-items: center;
-        background-image: url("Image/achtergrond5.png");
+        background-image: url("../../Elementen/header/Image/achtergrond5.png");
         background-color: hsl(0, 0%, 100%);
         z-index: 1000;
     }
