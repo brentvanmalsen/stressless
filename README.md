@@ -47,10 +47,10 @@ De website is ontworpen om te worden bekeken op verschillende apparaten, met de 
 
 ## Gemaakt door
 
-@Brent (Spel pagina)
+@Brent van Malsen (Spel pagina)
 
-@Yui (Header)
+@Yui Winter (Header)
 
-@Jorg (Home, Hulpmiddelen)
+@Jorg van de Rijdt (Home, Hulpmiddelen)
 
-@Sem (Cursus, Footer)
+@Sem Sannen (Cursus, Footer)
