@@ -1,38 +1,59 @@
 # StressLess Campagne Website
 
-Voor ons project in samenwerking met Partout hebben we een campagne bedacht voor de Kindertelefoon. Deze Git is de locatie waarin we de campagnewebsite hebben gemaakt en opgeslagen.
+Welkom bij de StressLess campagne website! Deze website is ontworpen om bewustwording over stress te creëren en biedt een interactieve ervaring voor gebruikers. Hieronder vind je enkele belangrijke details en instructies voor de repository.
 
+## Inhoud
 
+- [Overzicht](#overzicht)
+- [Structuur van de Bestanden](#structuur-van-de-bestanden)
+- [Technologieën](#technologieën)
+- [Installatie](#installatie)
+- [Gebruik](#gebruik)
 
-## Authors
+## Overzicht
 
-- [@Brent](https://git.fhict.nl/I507960) (Spel pagina)
-- [@Yui](https://git.fhict.nl/I511624) (Header)
-- [@Jorg](https://git.fhict.nl/I515179) (Home, Hulpmiddelen)
-- [@Sem](https://git.fhict.nl/I511643) (Cursus, Footer)
+Deze website is gericht op het verminderen van stress door middel van bewustwording en educatie. Het biedt verschillende secties, waaronder het spel Uno Dos Stress, uitlegvideo's, en informatie over stressgerelateerde onderwerpen.
 
+## Bestandsstructuur
 
+- `Elementen/footer/header.html`: Bevat de HTML-structuur voor de header van de website.
+- `Elementen/footer/header.css`: Bevat de CSS-stijlen voor de header.
+- `Elementen/footer/footer.html`: Bevat de HTML-structuur voor de footer van de website.
+- `Elementen/footer/footer.css`: Bevat de CSS-stijlen voor de footer.
+- `index.html`: De hoofdpagina van de website.
+- `homepagina.css`: De CSS-stijlen voor de hoofdpagina.
+- `spel.html`: De spelpagina van de website.
+- `spel.css`: Bevat de CSS-stijlen voor de spelpagina.
+- `cursus.html`: De cursuspagina van de website.
+- `cursus.css`: Bevat de CSS-stijlen voor de cursuspagina.
+- `Images/`: Map met afbeeldingen gebruikt in de website.
+- `Fonts/`: Map met aangepaste lettertypen.
+
+## Technologieën
+
+- HTML
+- CSS
+- JavaScript
 
 ## Installatie
 
-Installeer ons project door de Git te clonen en vervolgens te navigeren op de volgende manier:
-
+Clone deze repository naar je lokale machine.
 ```bash
-    -> Pages -> 1. Home -> index.html
-```
+git clone https://git.fhict.nl/I507960/stressless.git
 
-- Zodra u dit bestand opent kunt u onze website bekijken.
-- De website is mobile-first gemaakt, 375x667 iPhone SE
+## Gebruik
 
+De website is ontworpen om te worden bekeken op verschillende apparaten, met de nadruk op mobiele gebruikers. Navigeer naar de verschillende secties met behulp van het menu.
 
+## Gemaakt door
 
-## Features
+@Brent (Spel pagina)
 
-- Mobile
-- Geanimeerde header
-- Contact forum
-- Speluitleg knop
+@Yui (Header)
 
+@Jorg (Home, Hulpmiddelen)
+
+@Sem (Cursus, Footer)
 
 
 ![Logo](./Elementen/header/Image/logo.png){width="20%"}
