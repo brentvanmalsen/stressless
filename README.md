@@ -16,8 +16,8 @@ Deze website is gericht op het verminderen van stress door middel van bewustword
 
 ## Bestandsstructuur
 
-- `Elementen/footer/header.html`: Bevat de HTML-structuur voor de header van de website.
-- `Elementen/footer/header.css`: Bevat de CSS-stijlen voor de header.
+- `Elementen/header/header.html`: Bevat de HTML-structuur voor de header van de website.
+- `Elementen/header/header.css`: Bevat de CSS-stijlen voor de header.
 - `Elementen/footer/footer.html`: Bevat de HTML-structuur voor de footer van de website.
 - `Elementen/footer/footer.css`: Bevat de CSS-stijlen voor de footer.
 - `index.html`: De hoofdpagina van de website.
