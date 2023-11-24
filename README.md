@@ -38,7 +38,7 @@ Deze website is gericht op het verminderen van stress door middel van bewustword
 ## Installatie
 
 Clone deze repository naar je lokale machine.
-```bash
+
 git clone https://git.fhict.nl/I507960/stressless.git
 
 ## Gebruik
@@ -54,8 +54,3 @@ De website is ontworpen om te worden bekeken op verschillende apparaten, met de 
 @Jorg (Home, Hulpmiddelen)
 
 @Sem (Cursus, Footer)
-
-
-![Logo](./Elementen/header/Image/logo.png){width="20%"}
-
-
