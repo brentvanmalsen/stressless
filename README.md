@@ -41,6 +41,11 @@ Clone deze repository naar je lokale machine.
 
 git clone https://git.fhict.nl/I507960/stressless.git
 
+## Regels
+
+Voor de elementen die over elke pagina gelijk moet zijn hebben we code gedeeld in Teams, een voorbeeld hiervan is de header en de font size van de tekst. 
+Ook staat er in de standaard styling CSS een vast break element gemaakt, op die manier is op elke pagina de ruimte tussen elementen gelijk.
+
 ## Gebruik
 
 De website is ontworpen om te worden bekeken op verschillende apparaten, met de nadruk op mobiele gebruikers. Navigeer naar de verschillende secties met behulp van het menu.
