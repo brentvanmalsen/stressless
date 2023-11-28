@@ -56,6 +56,6 @@ De website is ontworpen om te worden bekeken op verschillende apparaten, met de 
 
 @Yui Winter (Header)
 
-@Jorg van de Rijdt (Home, Hulpmiddelen)
+@Jorg van de Rijdt (Home, Hulpmiddelen, Telefoon Frame)
 
 @Sem Sannen (Cursus, Footer)
