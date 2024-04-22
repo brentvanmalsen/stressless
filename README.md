@@ -39,7 +39,7 @@ Deze website is gericht op het verminderen van stress door middel van bewustword
 
 Clone deze repository naar je lokale machine.
 
-git clone https://git.fhict.nl/I507960/stressless.git
+git clone https://github.com/brentvanmalsen/stressless.git
 
 ## Regels
 
